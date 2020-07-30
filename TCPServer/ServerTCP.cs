@@ -10,7 +10,7 @@ namespace Better_Server {
         public static ClientObject[] clientObjects;
 
         public static void InitializeServer() {
-            InitializeMySQLServer();
+            //InitializeMySQLServer();
             InitializeClientObjects();
             InitializeServerSocket();
         }

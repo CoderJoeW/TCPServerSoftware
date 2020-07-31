@@ -82,7 +82,6 @@ namespace Better_Server {
             ByteBuffer buffer = new ByteBuffer();
             buffer.WriteBytes(data);
             int packageID = buffer.ReadInteger();
-            string uid = buffer.ReadString();
             string msg = buffer.ReadString();
 
             Console.WriteLine("Player {0} has sent following msg {1}", connectionID, msg);
